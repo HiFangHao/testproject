@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.HashMap;
+
 public class Student {
 
     private int id;
@@ -13,6 +16,10 @@ public class Student {
 
     public void setUsername(String username) {
         this.username = username;
+        ArrayList<String> stu = new ArrayList<>();
+
+
+
     }
 
     public String getUsername() {
